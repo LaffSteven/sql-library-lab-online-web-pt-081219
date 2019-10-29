@@ -9,7 +9,7 @@ INSERT INTO books (id, title, year, series_id) VALUES (1, "The Hobbit", 1937, 1)
 
 INSERT INTO characters (id, name, motto, species, author_id) VALUES (1, "Frodo Baggins", "We set out to save the Shire, Sam.", "Hobbit", 1), (2, "Samwise Gamgee", "Hold on Mr. Frodo.", "Hobbit", 1), (3, "Aragorn II Elessar", "There is still hope.", "Dúnedain", 1), (4, "Gandalf", "Fly, you fools.", "Maia", 1);
 
-INSERT INTO characters (id, name, motto, species, author_id) VALUES (5, "Paul Atraedes", "motto one", "cylon", 2), (6, "Character Two", "motto two", "human", 2), (7, "Character Three", "motto three", "cylon", 2), (8, "Character Four", "motto four", "cylon", 2);
+INSERT INTO characters (id, name, motto, species, author_id) VALUES (5, "Paul Atraedes", "", "Human", 2), (6, "Character Two", "motto two", "human", 2), (7, "Character Three", "motto three", "cylon", 2), (8, "Character Four", "motto four", "cylon", 2);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
 
