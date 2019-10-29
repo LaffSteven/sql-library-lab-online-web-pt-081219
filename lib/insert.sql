@@ -20,7 +20,9 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES
   
 INSERT INTO character_books (id, book_id, character_id) VALUES
   (1, 1, 4),
-  (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
+  (2, 2, 1), (3, 2, 2), (4, 2, 3), (5, 2, 4),
+  (6, 3, 3), (7, 3, 3), (8, 3, 4), (9, 3, 4),
+  (10, 4, 1), (11, 4, 2), (12, 4, 3)(13, 4, 4);
 
 
 
@@ -40,4 +42,7 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES
 
 
 
-INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4, 6), (11, 5, 6), (12, 6, 6), (13, 4, 7), (14, 5, 7), (15, 6, 7), (16, 4, 8);
+INSERT INTO character_books (id, book_id, character_id) VALUES
+(14, 5, 5), (15, 5, 6), (16, 5, 7), (17, 5, 8),
+(18, 6, 5), (19, 6, 6),
+(20, 6, 5), (21, 6, 6), (22, 6, 7);
